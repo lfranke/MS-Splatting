@@ -13,7 +13,7 @@ This repository contains the **official unified codebase** for our work on Multi
 
 
 ### **Multi-Spectral Gaussian Splatting with Neural Color Representation (MS-Splatting, ArXiv 2025)**  
-[Josef Grün](https://j-gruen.github.io), [Lukas Meyer](https://meyerls.github.io), [Maximilian Weiherer](https://mweiherer.github.io), [Bernhard Egger](https://eggerbernhard.ch), [Marc Stamminger](https://scholar.google.com), [Linus Franke](https://lfranke.github.io)
+[Lukas Meyer](https://meyerls.github.io), [Josef Grün](https://j-gruen.github.io), [Maximilian Weiherer](https://mweiherer.github.io), [Bernhard Egger](https://eggerbernhard.ch), [Marc Stamminger](https://scholar.google.com), [Linus Franke](https://lfranke.github.io)
 
 [![ArXiv](https://img.shields.io/badge/arXiv-2508.14443-b31b1b.svg)](https://arxiv.org/abs/2506.03407) [![Website](https://img.shields.io/badge/Website-🌐-4cafef)](https://meyerls.github.io/ms_splatting) [![YouTube](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://youtu.be/5AQRJ7Ns9q0)
 
