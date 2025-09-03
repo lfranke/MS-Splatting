@@ -9,13 +9,13 @@ This repository contains the **official unified codebase** for our work on Multi
 ### **Towards Integrating Multi-Spectral Imaging with Gaussian Splatting (VMV 2025)**  
 [Josef Grün](https://j-gruen.github.io), [Lukas Meyer](https://meyerls.github.io), [Maximilian Weiherer](https://mweiherer.github.io), [Bernhard Egger](https://eggerbernhard.ch), [Marc Stamminger](https://scholar.google.com), [Linus Franke](https://lfranke.github.io)
 
-[![ArXiv](https://img.shields.io/badge/arXiv-2506.03407-b31b1b.svg)](https://arxiv.org/abs/2506.03407) [![Website](https://img.shields.io/badge/Website-🌐-4cafef)](https://meyerls.github.io/towards_multi_spec_splat/) [![Conference](https://img.shields.io/badge/Conference-VMV%202025-8a2be2)](https://www.eg.org/wp/vmv-2025/) [![YouTube](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://youtu.be/okqMAbUzBaE)
+[![ArXiv](https://img.shields.io/badge/arXiv-2506.03407-b31b1b.svg)](https://arxiv.org/abs/2509.00989) [![Website](https://img.shields.io/badge/Website-🌐-4cafef)](https://meyerls.github.io/towards_multi_spec_splat/) [![Conference](https://img.shields.io/badge/Conference-VMV%202025-8a2be2)](https://www.vmv2025.fau.de/) [![YouTube](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://youtu.be/okqMAbUzBaE)
 
 
 ### **Multi-Spectral Gaussian Splatting with Neural Color Representation (MS-Splatting, ArXiv 2025)**  
 [Josef Grün](https://j-gruen.github.io), [Lukas Meyer](https://meyerls.github.io), [Maximilian Weiherer](https://mweiherer.github.io), [Bernhard Egger](https://eggerbernhard.ch), [Marc Stamminger](https://scholar.google.com), [Linus Franke](https://lfranke.github.io)
 
-[![ArXiv](https://img.shields.io/badge/arXiv-2508.14443-b31b1b.svg)]([[https://arxiv.org/abs/2508.14443](https://arxiv.org/abs/2506.03407)](https://arxiv.org/abs/2506.03407)) [![Website](https://img.shields.io/badge/Website-🌐-4cafef)](https://meyerls.github.io/ms_splatting) [![YouTube](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://youtu.be/5AQRJ7Ns9q0)
+[![ArXiv](https://img.shields.io/badge/arXiv-2508.14443-b31b1b.svg)](https://arxiv.org/abs/2506.03407) [![Website](https://img.shields.io/badge/Website-🌐-4cafef)](https://meyerls.github.io/ms_splatting) [![YouTube](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://youtu.be/5AQRJ7Ns9q0)
 
 
 ## 📅 Timeline
