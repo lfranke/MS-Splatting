@@ -1,0 +1,5 @@
+from mmsplat.mmsplat_dataparser import MMSplatDataParserConfig
+from nerfstudio.plugins.registry_dataparser import DataParserSpecification
+
+
+mmsplat_dataparser_spec = DataParserSpecification(config=MMSplatDataParserConfig())

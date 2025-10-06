@@ -1,0 +1,40 @@
+[project]
+name = "mmsplat"
+version = "0.0.1"
+
+dependencies=[
+    "nerfstudio==1.1.5",
+    "gsplat==1.4.0",
+    "numpy==1.24.4",
+    "pycolmap",
+    "more-itertools",
+    "Pillow",
+    "imageio",
+    "open3d==0.18.0",
+    "matplotlib",
+    "rich", 
+    "viser",
+    "mediapy",
+    "typing-extensions",
+    "jaxtyping",
+    "tyro"
+]
+
+[tool.setuptools.packages.find]
+include = ["mmsplat*"]
+
+[project.scripts]
+# Note, add entrypoint name to nerfstudio/scripts/completions/install.py to include CLI completion
+ns-process-mm-data = "mmsplat.scripts.process_data:entrypoint"
+ns-export-mm-splats = "mmsplat.scripts.export:entrypoint"
+ns-export-mm-splat-cameras = "mmsplat.scripts.export_cameras:entrypoint"
+ns-export-mm-splat-model-stats = "mmsplat.scripts.export_model_stats:entrypoint"
+ns-export-mm-train-eval-split = "mmsplat.rendering.render:entrypoint"
+ns-eval-step = "mmsplat.scripts.eval:entrypoint"
+ns-render-mm = "mmsplat.rendering.render:entrypoint"
+
+[project.entry-points.'nerfstudio.method_configs']
+mmsplat = 'mmsplat.mmsplat_config:mmsplat_method'
+
+[project.entry-points.'nerfstudio.dataparser_configs']
+mmsplat-dataparser = 'mmsplat.mmsplat_dataparser_config:mmsplat_dataparser_spec'
