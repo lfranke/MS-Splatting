@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.idea
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# VSCode settings
+.vscode/
+.history/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache files
+*.egg-info/
+*.egg
+*.whl
+__pycache__/
+*.cache
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Data files
+*.h5
+*.npy
+*.npz
+
+# Output directories
+output/
+results/
+checkpoints/
+
+# NerfStudio specific files
+*.nerf/
+*.txt
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
