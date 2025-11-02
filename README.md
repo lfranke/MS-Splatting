@@ -19,7 +19,7 @@ This repository contains the **official unified codebase** for our work on Multi
 
 
 ## 📅 Timeline
-- **6. October 2025** – **Code* for **Towards Multi-Spectral GS* released! 🥳
+- **6. October 2025** – **Code** for *Towards Multi-Spectral GS* released! 🥳
 - **1. October 2025** – *Towards Multi-Spectral GS* got accepted by [VMV](https://diglib.eg.org/items/dcb8c51e-8f2a-4c1f-bc8f-911211091632) 
 - **31. August 2025** – *Towards Multi-Spectral GS* uploaded to **arXiv**  
 - **3. June 2025** – *MS-Splatting* uploaded to **arXiv**  
