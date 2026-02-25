@@ -1,24 +1,25 @@
 # 🌈 Multi-Spectral Gaussian Splatting 🌈
 
-This repository contains the **official unified codebase** for our work on Multi-Spectral Gaussian Splatting based on the papers [Towards Integrating Multi-Spectral Imaging with Gaussian Splatting](https://arxiv.org/abs/2506.03407) and [Multi-Spectral Gaussian Splatting with Neural Color Representation](https://arxiv.org/abs/2506.03407).  
+This repository contains the **official unified codebase** for our work on Multi-Spectral Gaussian Splatting based on the papers [Towards Integrating Multi-Spectral Imaging with Gaussian Splatting](https://arxiv.org/abs/2509.00989) and [Multi-Spectral Gaussian Splatting with Neural Color Representation](https://arxiv.org/abs/2506.03407).  
 
 📌 The repo supports **two papers**, which share the same implementation. The code will be released **soon™** in this repository.
 
 ## 📚 Papers & Links
 
 ### **Towards Integrating Multi-Spectral Imaging with Gaussian Splatting (VMV 2025)**  
-[Josef Grün](https://j-gruen.github.io), [Lukas Meyer](https://meyerls.github.io), [Maximilian Weiherer](https://mweiherer.github.io), [Bernhard Egger](https://eggerbernhard.ch), [Marc Stamminger](https://scholar.google.com), [Linus Franke](https://lfranke.github.io)
+[Josef Grün](https://j-gruen.github.io), [Lukas Meyer](https://meyerls.github.io), [Maximilian Weiherer](https://mweiherer.github.io), [Bernhard Egger](https://eggerbernhard.ch), [Marc Stamminger](https://www.lgdv.tf.fau.de/person/marc-stamminger/), [Linus Franke](https://lfranke.github.io)
 
-[![ArXiv](https://img.shields.io/badge/arXiv-2506.03407-b31b1b.svg)](https://arxiv.org/abs/2509.00989) [![Website](https://img.shields.io/badge/Website-🌐-4cafef)](https://meyerls.github.io/towards_multi_spec_splat/) [![Conference](https://img.shields.io/badge/Conference-VMV%202025-8a2be2)](https://www.vmv2025.fau.de/) [![YouTube](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://youtu.be/okqMAbUzBaE)
+[![ArXiv](https://img.shields.io/badge/arXiv-2509.00989-b31b1b.svg)](https://arxiv.org/abs/2509.00989) [![Website](https://img.shields.io/badge/Website-🌐-4cafef)](https://meyerls.github.io/towards_multi_spec_splat/) [![Conference](https://img.shields.io/badge/Conference-VMV%202025-8a2be2)](https://www.vmv2025.fau.de/) [![YouTube](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://youtu.be/okqMAbUzBaE)
 
 
-### **Multi-Spectral Gaussian Splatting with Neural Color Representation (MS-Splatting, ArXiv 2025)**  
-[Lukas Meyer](https://meyerls.github.io), [Josef Grün](https://j-gruen.github.io), [Maximilian Weiherer](https://mweiherer.github.io), [Bernhard Egger](https://eggerbernhard.ch), [Marc Stamminger](https://scholar.google.com), [Linus Franke](https://lfranke.github.io)
+### **Multi-Spectral Gaussian Splatting with Neural Color Representation (MS-Splatting, Eurographics 2026)**  
+[Lukas Meyer](https://meyerls.github.io), [Josef Grün](https://j-gruen.github.io), [Maximilian Weiherer](https://mweiherer.github.io), [Bernhard Egger](https://eggerbernhard.ch), [Marc Stamminger](https://www.lgdv.tf.fau.de/person/marc-stamminger/), [Linus Franke](https://lfranke.github.io)
 
-[![ArXiv](https://img.shields.io/badge/arXiv-2508.14443-b31b1b.svg)](https://arxiv.org/abs/2506.03407) [![Website](https://img.shields.io/badge/Website-🌐-4cafef)](https://meyerls.github.io/ms_splatting) [![YouTube](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://youtu.be/5AQRJ7Ns9q0)
+[![ArXiv](https://img.shields.io/badge/arXiv-2506.03407-b31b1b.svg)](https://arxiv.org/abs/2506.03407) [![Website](https://img.shields.io/badge/Website-🌐-4cafef)](https://meyerls.github.io/ms_splatting) [![Conference](https://img.shields.io/badge/Conference-EG%202026-8a2be2)](https://eg2026.github.io/) [![YouTube](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://youtu.be/5AQRJ7Ns9q0)
 
 
 ## 📅 Timeline
+- **20. February 2026** - *MS-Splatting* got accepted by [Eurographics 2026](https://eg2026.github.io/)
 - **6. October 2025** – **Code** for *Towards Multi-Spectral GS* released! 🥳
 - **1. October 2025** – *Towards Multi-Spectral GS* got accepted by [VMV](https://diglib.eg.org/items/dcb8c51e-8f2a-4c1f-bc8f-911211091632) 
 - **31. August 2025** – *Towards Multi-Spectral GS* uploaded to **arXiv**  
@@ -36,15 +37,19 @@ If you use this repository, please cite the corresponding paper(s):
   booktitle = {Proceedings of VMV 2025},
   year      = {2025},
   month     = {June},
-  url       = {https://meyerls.github.io/towards_multi_spec_splat}
+  url       = {https://meyerls.github.io/towards_multi_spec_splat},
+  doi       = {10.2312/vmv.20251237}
 }
 
-@article{meyer2025msplatting,
+@article{meyer2026msplatting,
   title   = {Multi-Spectral Gaussian Splatting with Neural Color Representation},
   author  = {Meyer, Lukas and Grün, Josef and Weiherer, Maximilian and Egger, Bernhard and Stamminger, Marc and Franke, Linus},
-  journal = {arXiv preprint arXiv:2508.14443},
-  year    = {2025},
-  url     = {https://arxiv.org/abs/2508.14443}
+  journal = {Computer Graphics Forum},
+  volume  = {45},
+  number  = {2},
+  doi     = {10.1111/cgf.70337},
+  year    = {2026},
+  url     = {https://meyerls.github.io/ms_splatting}
 }
 ```
 
